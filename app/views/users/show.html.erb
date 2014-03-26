@@ -1,0 +1,8 @@
+show view
+
+<%=@user.fname %>
+<%=@user.email %>
+
+<% @user.posts.each do |post| %>
+  <%=post.body %>
+<% end %> 
